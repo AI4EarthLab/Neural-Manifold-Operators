@@ -12,7 +12,7 @@ We propose Neural Manifold Operator (NMO), an operator learning paradigm for lea
 
 **Intrinsic dimension representation:** NMO learns the intrinsic dynamics of the physics system by learning the invariant subspace of the underlying infinite-dimensional operators with intrinsic dimension.
 
-**Generic operator learning paradigm:** NMO is a generic operator learning paradigm for various network structure implementations including Multi-Layer Perceptron, Convolutional Neural Network, and Transformer.
+**Generic operator learning paradigm:** NMO is a generic operator learning paradigm for various network structure implementations including **Multi-Layer Perceptron, Convolutional Neural Network, and Transformer**.
 
 **Benefits in multi-disciplinary areas:** NMO achieves **state-of-the-art** performance in several **real-world and equation-governed scenarios** (Fig 2), ranging from mathematics, physics, chemistry and earth science.
 
