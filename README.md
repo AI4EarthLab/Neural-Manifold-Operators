@@ -5,7 +5,7 @@
 We propose Neural Manifold Operator (NMO), an operator learning paradigm for learning the intrinsic dimension representation of the underlying operator.
 
 <p align="center">
-<img src=".\fig\fig2.pdf" height = "280" alt="" align=center />
+<img src=".\fig\fig2.png" height = "280" alt="" align=center />
 <br><br>
 <b>Figure 1.</b> Overview of NMO.
 </p>
@@ -23,6 +23,7 @@ We propose Neural Manifold Operator (NMO), an operator learning paradigm for lea
 <br><br>
 <b>Figure 2.</b> The experiment scenarios of NMO.
 </p>
+
 ## Get Started
 
 Our complete code will be released in early September.
@@ -31,16 +32,17 @@ Our complete code will be released in early September.
 
 ### 1. Main Result
 
-**State-of-the-art performance.** We compare our model with 9 baseline models in 7 scenarios. NMO achieves **state-of-the-art performance** in statistical and physical metrics and gains 23.35\% average improvement on three real-world scenarios and four equation-governed scenarios across a wide range of multi-disciplinary fields.
+**State-of-the-art performance.** We compare our model with nine baseline models in seven scenarios. NMO achieves **state-of-the-art performance** in statistical and physical metrics and gains **23.35\% average improvement** on three real-world scenarios and four equation-governed scenarios across a wide range of multi-disciplinary fields.
 
 <p align="center">
-<img src=".\fig\table1.png" height = "420" alt="" align=center />
+<img src=".\fig\table1.png" height = "450" alt="" align=center />
 <br><br>
 </p>
+
 **The best physical performance.** NMO achieves the best performance in physical metrics without specific inductive bias.
 
 <p align="center">
-<img src=".\fig\fig4.pdf" height = "350" alt="" align=center />
+<img src=".\fig\fig4.png" height = "350" alt="" align=center />
 <br><br>
 <b>Figure 3.</b> Left: Relative mass error at each time step and visualization of prediction results of each model on the Shallow-Water equations scenario. Mid: Turbulence energy spectrum on the Rayleigh-Bénard convection scenario. Right: The average of absolute divergence convection at each time step and RMSE associated with the prediction step of each model on the Rayleigh-Bénard convection scenario.
 </p>
@@ -48,10 +50,11 @@ Our complete code will be released in early September.
 **Accuracy and efficiency.** Our model achieves the best balance among training speed, parameter size, and performance.
 
 <p align="center">
-<img src=".\fig\fig5.pdf" height = "360" alt="" align=center />
+<img src=".\fig\fig3.png" height = "280" alt="" align=center />
 <br><br>
 <b>Figure 4.</b> The training time and RMSE performance rankings of various models on SEVIR and Navier-Stokes equation scenario.
 </p>
+
 ### 2. Dimension Experiments
 
 It is shown that the intrinsic dimension calculated by our paradigm is the optimal dimensional representation of the underlying operators.
@@ -64,7 +67,7 @@ It is shown that the intrinsic dimension calculated by our paradigm is the optim
 We have implemented it across various scenarios, further demonstrating the effectiveness of our algorithm.
 
 <p align="center">
-<img src=".\fig\fig5.pdf" height = "370" alt="" align=center />
+<img src=".\fig\fig5.png" height = "400" alt="" align=center />
 <br><br>
 <b>Figure 5.</b> The prediction performance of various dimensions of the time evolution operator. The dotted lines represent the ID calculated by our algorithm in each scenario.
 </p>
@@ -91,4 +94,4 @@ series = {KDD '24}
 
 ## Contact
 
-If you have any question about our paper or code, please contact Hao Wu (wuhao2022@mail.ustc.edu.cn), Wei Xiong (xiongw21@mails.tsinghua.edu.cn; wei.xiong@yale.edu) or any author of this paper.
+If you have any questions about our paper or code, please contact Hao Wu (wuhao2022@mail.ustc.edu.cn), Wei Xiong (xiongw21@mails.tsinghua.edu.cn; wei.xiong@yale.edu) or any author of this paper.
