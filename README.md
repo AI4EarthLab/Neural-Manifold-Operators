@@ -19,7 +19,7 @@ We propose Neural Manifold Operator (NMO), an operator learning paradigm for lea
 **Efficiency and Accuracy:** By intrinsic dimension projection, NMO significantly reduces the training parameters and effectively improves the capability of generalization and physical consistency.
 
 <p align="center">
-<img src=".\fig\fig1.png" height = "220" alt="" align=center />
+<img src=".\fig\fig1.png" height = "230" alt="" align=center />
 <br><br>
 <b>Figure 2.</b> The experiment scenarios of NMO.
 </p>
