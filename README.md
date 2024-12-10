@@ -94,4 +94,4 @@ series = {KDD '24}
 
 ## Contact
 
-If you have any questions about our paper or code, please contact Hao Wu (wuhao2022@mail.ustc.edu.cn), Wei Xiong (xiongw21@mails.tsinghua.edu.cn; wei.xiong@yale.edu) or any author of this paper.
+If you have any questions about our paper or code, please contact Hao Wu (wuhao2022@mail.ustc.edu.cn), Wei Xiong (xiongw21@mails.tsinghua.edu.cn; wei.xiong@yale.edu), Xiaomeng Huang (hxm@tsinghua.edu.cn) or any author of this paper.
