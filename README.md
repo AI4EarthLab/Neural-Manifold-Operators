@@ -26,8 +26,6 @@ We propose Neural Manifold Operator (NMO), an operator learning paradigm for lea
 
 ## Get Started
 
-Our complete code will be released in early September.
-
 ## Experiments Result
 
 ### 1. Main Result
