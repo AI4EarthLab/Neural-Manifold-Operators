@@ -4,10 +4,6 @@ from untils import *
 from compute_intrinsic_dimension import *
 
 
-def stride_generator(num_layers, reverse=False):
-    strides = [1, 2] * 10
-    return list(reversed(strides[:num_layers])) if reverse else strides[:num_layers]
-
 class Encoder(nn.Module):
     def __init__(self, input_channels, latent_dim, spatial_layers):
         super(Encoder, self).__init__()
